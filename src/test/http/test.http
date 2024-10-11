@@ -1,0 +1,3 @@
+### GET make-payment
+GET http://localhost:8080/make-payment?
+    amount={{$random.integer(100)}}
